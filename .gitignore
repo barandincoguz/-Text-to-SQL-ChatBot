@@ -209,3 +209,4 @@ __marimo__/
 /project1.py
 /northwind.db
 /security_logs
+.DS_Store
