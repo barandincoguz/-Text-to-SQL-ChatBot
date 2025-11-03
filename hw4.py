@@ -47,7 +47,7 @@ logger = logging.getLogger(__name__)
 class Config:
     """Centralized configuration management"""
     # API Configuration
-    GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyAyfYVvpC6LmEsUYPITFbhJrytsWEC3G9Q")
+    GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")  # ⚠️ MUST be set as environment variable
     MODEL_NAME = "gemini-2.5-flash"  # Use latest model
     
     # Database Configuration
